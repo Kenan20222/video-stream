@@ -208,7 +208,7 @@ async def cbresume(_, query: CallbackQuery):
 volume_up
 content_copy
 
- !", show_alert=True)
+ !", show_alert=True
     chat_id = query.message.chat.id
     if chat_id in QUEUE:
         try:

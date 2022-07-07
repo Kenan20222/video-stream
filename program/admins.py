@@ -204,7 +204,7 @@ async def cbresume(_, query: CallbackQuery):
         return await query.answer("siz Anonim Adminsiniz !\n\n» admin hüquqlarından istifadəçi hesabına geri qayıdın.")
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("💡 yalnız bu düyməyə toxuna bilən səsli söhbətləri idarə etmək icazəsi olan admin
+        return await query.answer("💡 yalnız bu düyməyə toxuna bilən səsli söhbətləri idarə etmək icazəsi olan admin.")
 volume_up
 content_copy
 

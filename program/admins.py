@@ -210,7 +210,7 @@ content_copy
 
  
     
-    if chat_id in QUEUE:
+    
         try:
             await call_py.resume_stream(chat_id)
             await query.edit_message_text(

@@ -209,7 +209,7 @@ volume_up
 content_copy
 
  
-    chat_id = query.message.chat.id
+    
     if chat_id in QUEUE:
         try:
             await call_py.resume_stream(chat_id)
